@@ -1,6 +1,9 @@
 {
   "name": "wordapi",
   "version": "1.0.0",
+  "engines": {
+    "node": "8.15.0"
+  },
   "description": "Attempt to build api that give random English words to use in my Speed Typing Game",
   "main": "index.js",
   "scripts": {
