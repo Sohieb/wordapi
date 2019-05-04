@@ -1,10 +1,11 @@
 const express = require('express');
+const cors = require('cors');
 let wordList = require('./words').words();
 
 const app = express();
 
 app.use(express.json());
-// app.use(cors());
+app.use(cors());
 
 
 function shuffle(array) {
